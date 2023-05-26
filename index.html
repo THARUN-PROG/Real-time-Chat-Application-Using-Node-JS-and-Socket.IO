@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <!-- <h1>Hello from THARUN.!</h1> -->
+
+    <section class="chat_section">
+        <div class="code">
+            <img height="40" src="/public/chatlogo.jpg" alt="">
+            <h1>Realtime Chat App using Node JS and Socket IO</h1>
+        </div>
+
+        <div class="message_section">
+            <div class="Incoming message">
+                <h4>THARUN</h4>
+                <p>Hii, How are you?, Can you do me a Favour please</p>
+            </div>
+            <div class="outgoing message">
+                <h4>JAYASHREE</h4>
+                <p>Yaa, I am fine! How about you?, yaa sure, I will try my best and give my full effort for the quality delivery</p>
+            </div>
+            <div class="outgoing message">
+                <h4>JAYASHREE</h4>
+                <p>How about your studies are going on?</p>
+            </div>
+            <div class="outgoing message">
+                <h4>JAYASHREE</h4>
+                <p>What about your internship experience which you had experienced in past company?</p>
+            </div>
+            <div class="outgoing message">
+                <h4>JAYASHREE</h4>
+                <p>What is your plan, whether higher studies or getting an placement offer in a company?</p>
+            </div>
+        
+        </div>
+
+        <div>
+            <textarea id="textarea" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+        </div>
+
+        </section>
+
+        <script src="/socket.io/socket.io.js"></script>
+
+    
+    <script src="/public/client.js"></script>
+</body>
+</html>
